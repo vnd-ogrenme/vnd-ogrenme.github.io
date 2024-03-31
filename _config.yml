@@ -12,7 +12,7 @@ title                    : "1001ÇABA"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "Yeni Bir Vuru Üreten Nöral Devre Tabanlı Öngörüsel Kodlama Yapısı ve Öğrenme Kuralının Geliştirilmesi isimli TÜBİTAK 1001 Projesine ait web sayfasıdır."
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://vnd-ogrenme.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "vnd-ogrenme/vnd-ogrenme.github.io"
 

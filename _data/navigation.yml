@@ -1,7 +1,7 @@
 # main links links
 main:
-  - title: "Publications"
-    url: /publications/
+  - title: "Proje Hakkında"
+    url: /hakkinda/
 
   - title: "Talks"
     url: /talks/    
