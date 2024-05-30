@@ -217,14 +217,48 @@
                 <div class="accordion shadow-soft rounded" id="accordionExample1">
                     <div class="card card-sm card-body bg-primary border-light mb-0">
                         <a href="#panel-1" data-target="#panel-1" class="accordion-panel-header" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="panel-1">
-                            <span class="h6 mb-0 font-weight-bold">Our Company</span>
+                            <span class="h6 mb-0 font-weight-bold">Özet</span>
                             <span class="icon"><span class="fas fa-plus"></span></span>
                         </a>
                         <div class="collapse" id="panel-1">
                             <div class="pt-3">
                                 <p class="mb-0">
-                                    At Themesberg, our mission has always been focused on bringing openness and transparency to the design process. We've always believed that by providing a space where designers can share ongoing work not only empowers them to make better products, it also
-                                    helps them grow. We're proud to be a part of creating a more open culture and to continue building a product that supports this vision.
+                                    Son yıllarda yapay zeka alanındaki çalışmaların çok etkili sonuçlar vermesi insan beyninden esinlenerek
+önerilen yapay sinir ağ (YSA) yapılarına dayanan farklı süreçlerin ele alınmasından kaynaklanmıştır. YSA’ların örüntü
+tanıma, sınıflandırma ve doğal dil işleme gibi konulardaki başarısından yola çıkarak gerçek zamanlı hesaplamada
+kullanılabilecek, mevcut von Neumann mimarisinden daha verimli ve tıpkı beyin gibi az enerji harcayan donanımlar
+üzerinde uygulanması düşünülmüştür. Bu mimarilerden birisi de beyinde yer alan hesaplama ilkelerini donanım üzerinde
+gerçekleştirmeyi amaçlayan nöromorfik donanımlardır. Nöromorfik donanımlar mevcut yapısı itibariyle geleneksel
+bilgisayar mimarisinden çok daha az enerji harcamalarına rağmen, uygulamada sadece nöromorfik devreler üzerinden
+gitmenin yeni öğrenme algoritmasını geliştirmede kısıtlamalar oluşturması istenmeyen bir durumdur. Hali hazırda
+nöromorfik donanımlara ulaşmanın zor olması, von Neumann mimarisinin uygulanabilirlik avantajından faydalanılmak
+istenmesi ve her iki donanımın bir çok parametre üzerinden karşılaştırılmak istenmesi nedeniyle çeşitliliğe bağlı
+kalınmasında fayda olduğu düşünülmektedir.
+YSA’ların güçlü yanlarına rağmen parametre optimizasyonu ve katastrofik unutma gibi dezavantajlara sahip olması ve
+beyindeki nöronlardan ve çalışma prensibinden az ilham alması beyinde ki süreçleri daha gerçekçi ele alan farklı yapıların
+geliştirilmesini sağlamıştır. Tam da bu noktada Veri Üreten Nöral Devreler (VND) nöronlar arasında bilgi taşınmasının
+kimyasal süreçlerini açıklaması ve daha etkin öğrenme kurallarının ele alınabilir olması nedeniyle kullanılan bir yöntem
+olarak yer almaktadır. Her ne kadar VND’lerin asıl amacının YSA’ların yerini almak olmasa da son yapılan çalışmalarda
+VND’ler kompleks örüntüleri işleyerek gürültülü ortamlarda benzer performanslar göstermeye başlamışlardır. Örneğin el
+yazısı sayılardan oluşan MNIST veri setinde üzerinde yapılan sınıflandırmalarda %90 üzerinde başarı sağlanabilmiştir.
+YSA nöronları devamlı değişen parametreler üzerinden haberleşirler ve karakteristik olarak türevlenebilen aktivasyon
+veya transfer fonksiyonları gerektirirler. Biyolojik olarak nöronlar arasındaki iletişim ayrık zamanlı ve aksiyon
+potansiyellerinin yayılımı sayesinde gerçekleştiği için, aksiyon potansiyelini oluşturan vuru dizileri oldukça fazla bilgi
+taşırlar. Nöronları birbirine bağlayan sinaptik ağırlıkların ayarlanması VND ağlarının en büyük zorluklarından birisi olarak
+ortaya çıkar. Beyinde öğrenme ve bilgi depolamanın arkasındaki temel unsur olarak görülen ve sinaptik ağırlıkların
+ayarlandığı en popüler metot ise STDP olarak karşımıza çıkmaktadır. Fakat STDP’nin vuru dizilerinin zamansal
+sıralamasını dikkate alması artımlı gerçek zamanlı öğrenme için kullanışlı bir yöntem olmasını engellemektedir. Halbuki
+yapılan araştırmalardan görüldüğü üzere insan beyni gerçek zamanlı olarak öğrenmeyi gerçekleştirebilmektedir. VND’ler
+için düşünüldüğünde sinaptik ağırlıkların çevrim içi olarak ayarlanması hala bir engel teşkil ettiğinden, birden fazla
+katmandan oluşan bir ağda STDP ile kontrol edilen ağırlıkların düzenlenerek VND’nin eğitilmesi zorlaşmaktadır. Burada
+Kazanan Hepsini Alır (KHA) ve öngörüsel kodlama yöntemlerini içeren bir VND yapısı kullanmanın avantaj sağlayacağı
+düşünülmektedir. Öngörüsel kodlama beyni, aktif bir şekilde öngörü üreten ve sonrasında çevresel uyaranların varlığında
+kendisini anında düzelten bir model ile tasvir etmektedir. İstatistiksel bir pencereden bakıldığında öngörüsel kodlamanın
+sinaptik ağırlıkların lokal olarak gerçekleştirilebilmesi için kullanılması nispeten yeni bir bakış açısı sunmaktadır.
+Nöromorfik donanımlar açısından bakıldığında hala biyoloji bir beyin kadar verimli olmasa bile yoğun hesaplamalı
+işlemlerde geleneksel bilgisayarlara göre çok daha düşük enerji tüketildiği bilinmektedir. Örneğin 1 milyon nöron ve 256
+milyon sinaptik bağlantı içeren bir nöromorfik bilgisayar 70 miliwatt güç tüketmektedir. Farklı metotların iç içe olduğu
+kompleks görevler yerine getiren VND ağının nöfomorfik donanım üzerindeki karakteristiği önemli bir aşama olacaktır.
                                 </p>
                             </div>
                         </div>
