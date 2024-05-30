@@ -3,15 +3,15 @@ permalink: /
 title: "VND Öğrenme"
 author_profile: true
 redirect_from: 
-  - /hakkinda/
-  - /hakkinda.html
+  - /about/
+  - /about.html
 ---
 
 Vuru Üreten Nöral Devreler ve Öngörüsel Kodlamanın Birlikte Kullanılması ile Yeni Bir Öğrenme Kuralının Geliştirilmesi
 
-A data-driven personal website
+Özet
 ======
-Özgün Değer: Son yıllarda yapay zeka alanındaki çalışmaların çok etkili sonuçlar vermesi insan beyninden esinlenerek
+Son yıllarda yapay zeka alanındaki çalışmaların çok etkili sonuçlar vermesi insan beyninden esinlenerek
 önerilen yapay sinir ağ (YSA) yapılarına dayanan farklı süreçlerin ele alınmasından kaynaklanmıştır. YSA’ların örüntü
 tanıma, sınıflandırma ve doğal dil işleme gibi konulardaki başarısından yola çıkarak gerçek zamanlı hesaplamada
 kullanılabilecek, mevcut von Neumann mimarisinden daha verimli ve tıpkı beyin gibi az enerji harcayan donanımlar
@@ -52,17 +52,6 @@ Mevcut ileri beslemeli veya yinelemeli YSA gibi çalışan VND’lerin aksine, �
 içeren VND yapısı nöromorfik donanımlar üzerinde test edilmemiştir. Bu projenin özgün değeri nöral üretken kodlamaya
 sahip bir VND’nin, lokal öğrenme kuralı ile öngörüsel kodlamayı kullanarak örüntü tanıma yapabilecek forma
 getirilmesi ve sistemin robotik bir donanım üzerinde çalıştırılmasıdır.
-
-
-
-
-Yaygın Etki: Proje kapsamında uluslararası düzeyde toplamda dört bildiri ve iki adet yüksek etkili dergi makalesinin
-hazırlanması öngörülmektedir. Geliştirilecek algoritma VND ağına öngörüsel kodlama ve KHA yapısını dahil edip yeni bir
-öğrenme kuralı sunarak yapay sinir ağlarının daha çok biyolojik nöronlar gibi çalışması sağlanabilecektir. Fizyolojik olarak
-nöronlarla benzerliği artan YSA’lar katastrofik unutma ve cross-talk gibi problemler için yeni yaklaşımlar geliştirilebilecektir.
-Algoritmanın son hali ile var olan bir robotik cihaz üzerinde çalışmalar yapılacak ve VND ile donanım arasındaki etkileşim
-gözlenecektir. Projede çalışan doktora ve yüksek lisans öğrencileri yüksek teknoloji ve bilimsel katkı sağlayabilecek insan
-gücünün bir parçası olacaktır.
 
 Yöntem
 ======

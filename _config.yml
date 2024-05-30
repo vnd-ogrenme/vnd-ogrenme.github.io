@@ -21,7 +21,7 @@ repository               : "vnd-ogrenme/vnd-ogrenme.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/pp.jpg"
+  avatar           : "pp.jpg"
   name             : "VND Öğrenme"
   pronouns         : # example: "she/her"  
   bio              : "Yeni Bir Vuru Üreten Nöral Devre Tabanlı Öngörüsel Kodlama Yapısı ve Öğrenme Kuralının Geliştirilmesi"
@@ -42,7 +42,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : #"academicpages"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
