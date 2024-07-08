@@ -45,6 +45,7 @@
 
 <!-- Pixel CSS -->
 <link type="text/css" href="./css/neumorphism.css" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/tutorials/timelines/timeline-7/assets/css/timeline-7.css">
 
 <!-- NOTICE: You can use the _analytics.html partial to include production code specific code & trackers -->
 
@@ -125,11 +126,11 @@
                         <div class="dropdown-menu dropdown-menu-lg">
                             <div class="col-auto px-0" data-dropdown-content>
                                 <div class="list-group list-group-flush">
-                                    <a href="#" target="_blank" class="list-group-item list-group-item-action d-flex align-items-center p-0 py-3 px-lg-4">
+                                    <a href="gecmis.html" target="" class="list-group-item list-group-item-action d-flex align-items-center p-0 py-3 px-lg-4">
                                         <span class="icon icon-sm icon-secondary"><span class="fas fa-file-alt"></span></span>
                                         <div class="ml-4">
-                                            <span class="text-dark d-block">Dökümantasyon<span class="badge badge-sm badge-secondary ml-2">v1.0</span></span>
-                                            <span class="small">Örnekler</span>
+                                            <span class="text-dark d-block">Proje Geçmişi<span class="badge badge-sm badge-secondary ml-2">v1.0</span></span>
+                                            <span class="small">Proje seyrindeki önemli anlar.</span>
                                         </div>
                                     </a>
                                     <a href="https://github.com/vnd-ogrenme" target="_blank" class="list-group-item list-group-item-action d-flex align-items-center p-0 py-3 px-lg-4">
@@ -162,8 +163,8 @@
             <div class="container z-2">
                 <div class="row justify-content-center text-center pt-6">
                     <div class="col-lg-8 col-xl-8">
-                        <h1 class="display-2 mb-3">Araştırma Projesi</h1>
-                        <p class="lead px-md-6 mb-0">Vuru Üreten Nöral Devreler ve Öngörüsel Kodlamanın Birlikte Kullanılması ile Yeni Bir Öğrenme Kuralının Geliştirilmesi</p>
+                        <h1 class="display-4 mb-3"><small>Üreten Nöral Devreler ve Öngörüsel Kodlamanın Birlikte Kullanılması ile Yeni Bir Öğrenme Kuralının Geliştirilmesi</small></h1>
+                        <p class="lead px-md-4 mb-0"><small>TÜBİTAK 1001 - Bilimsel ve Teknolojik Araştırma Projelerini Destekleme Programı</small> </p>
                     </div>
                 </div>
             </div>
@@ -182,82 +183,32 @@
         </div>
         <div class="row justify-content-center">
             <div class="col-12 col-md-10 col-lg-8">
-                <!--Accordion-->
-                <div class="accordion shadow-soft rounded" id="accordionExample1">
-                    <div class="card card-sm card-body bg-primary border-light mb-0">
-                        <a href="#panel-1" data-target="#panel-1" class="accordion-panel-header" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="panel-1">
-                            <span class="h6 mb-0 font-weight-bold">Özet</span>
-                            <span class="icon"><span class="fas fa-plus"></span></span>
-                        </a>
-                        <div class="collapse" id="panel-1">
-                            <div class="pt-3">
-                                <p class="mb-0">
-                                    Son yıllarda yapay zeka alanındaki çalışmaların çok etkili sonuçlar vermesi insan beyninden esinlenerek
-önerilen yapay sinir ağ (YSA) yapılarına dayanan farklı süreçlerin ele alınmasından kaynaklanmıştır. YSA’ların örüntü
-tanıma, sınıflandırma ve doğal dil işleme gibi konulardaki başarısından yola çıkarak gerçek zamanlı hesaplamada
-kullanılabilecek, mevcut von Neumann mimarisinden daha verimli ve tıpkı beyin gibi az enerji harcayan donanımlar
-üzerinde uygulanması düşünülmüştür. Bu mimarilerden birisi de beyinde yer alan hesaplama ilkelerini donanım üzerinde
-gerçekleştirmeyi amaçlayan nöromorfik donanımlardır. Nöromorfik donanımlar mevcut yapısı itibariyle geleneksel
-bilgisayar mimarisinden çok daha az enerji harcamalarına rağmen, uygulamada sadece nöromorfik devreler üzerinden
-gitmenin yeni öğrenme algoritmasını geliştirmede kısıtlamalar oluşturması istenmeyen bir durumdur. Hali hazırda
-nöromorfik donanımlara ulaşmanın zor olması, von Neumann mimarisinin uygulanabilirlik avantajından faydalanılmak
-istenmesi ve her iki donanımın bir çok parametre üzerinden karşılaştırılmak istenmesi nedeniyle çeşitliliğe bağlı
-kalınmasında fayda olduğu düşünülmektedir.
-YSA’ların güçlü yanlarına rağmen parametre optimizasyonu ve katastrofik unutma gibi dezavantajlara sahip olması ve
-beyindeki nöronlardan ve çalışma prensibinden az ilham alması beyinde ki süreçleri daha gerçekçi ele alan farklı yapıların
-geliştirilmesini sağlamıştır. Tam da bu noktada Veri Üreten Nöral Devreler (VND) nöronlar arasında bilgi taşınmasının
-kimyasal süreçlerini açıklaması ve daha etkin öğrenme kurallarının ele alınabilir olması nedeniyle kullanılan bir yöntem
-olarak yer almaktadır. Her ne kadar VND’lerin asıl amacının YSA’ların yerini almak olmasa da son yapılan çalışmalarda
-VND’ler kompleks örüntüleri işleyerek gürültülü ortamlarda benzer performanslar göstermeye başlamışlardır. Örneğin el
-yazısı sayılardan oluşan MNIST veri setinde üzerinde yapılan sınıflandırmalarda %90 üzerinde başarı sağlanabilmiştir.
-YSA nöronları devamlı değişen parametreler üzerinden haberleşirler ve karakteristik olarak türevlenebilen aktivasyon
-veya transfer fonksiyonları gerektirirler. Biyolojik olarak nöronlar arasındaki iletişim ayrık zamanlı ve aksiyon
-potansiyellerinin yayılımı sayesinde gerçekleştiği için, aksiyon potansiyelini oluşturan vuru dizileri oldukça fazla bilgi
-taşırlar. Nöronları birbirine bağlayan sinaptik ağırlıkların ayarlanması VND ağlarının en büyük zorluklarından birisi olarak
-ortaya çıkar. Beyinde öğrenme ve bilgi depolamanın arkasındaki temel unsur olarak görülen ve sinaptik ağırlıkların
-ayarlandığı en popüler metot ise STDP olarak karşımıza çıkmaktadır. Fakat STDP’nin vuru dizilerinin zamansal
-sıralamasını dikkate alması artımlı gerçek zamanlı öğrenme için kullanışlı bir yöntem olmasını engellemektedir. Halbuki
-yapılan araştırmalardan görüldüğü üzere insan beyni gerçek zamanlı olarak öğrenmeyi gerçekleştirebilmektedir. VND’ler
-için düşünüldüğünde sinaptik ağırlıkların çevrim içi olarak ayarlanması hala bir engel teşkil ettiğinden, birden fazla
-katmandan oluşan bir ağda STDP ile kontrol edilen ağırlıkların düzenlenerek VND’nin eğitilmesi zorlaşmaktadır. Burada
-Kazanan Hepsini Alır (KHA) ve öngörüsel kodlama yöntemlerini içeren bir VND yapısı kullanmanın avantaj sağlayacağı
-düşünülmektedir. Öngörüsel kodlama beyni, aktif bir şekilde öngörü üreten ve sonrasında çevresel uyaranların varlığında
-kendisini anında düzelten bir model ile tasvir etmektedir. İstatistiksel bir pencereden bakıldığında öngörüsel kodlamanın
-sinaptik ağırlıkların lokal olarak gerçekleştirilebilmesi için kullanılması nispeten yeni bir bakış açısı sunmaktadır.
-Nöromorfik donanımlar açısından bakıldığında hala biyoloji bir beyin kadar verimli olmasa bile yoğun hesaplamalı
-işlemlerde geleneksel bilgisayarlara göre çok daha düşük enerji tüketildiği bilinmektedir. Örneğin 1 milyon nöron ve 256
-milyon sinaptik bağlantı içeren bir nöromorfik bilgisayar 70 miliwatt güç tüketmektedir. Farklı metotların iç içe olduğu
-kompleks görevler yerine getiren VND ağının nöfomorfik donanım üzerindeki karakteristiği önemli bir aşama olacaktır.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card card-sm card-body bg-primary border-light mb-0">
-                        <a href="#panel-2" data-target="#panel-2" class="accordion-panel-header" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="panel-1">
-                            <span class="h6 mb-0 font-weight-bold">Yöntem</span>
-                            <span class="icon"><span class="fas fa-plus"></span></span>
-                        </a>
-                        <div class="collapse" id="panel-2">
-                            <div class="pt-3">
-                                <p class="mb-0">
-                                    Mevcut ileri beslemeli veya yinelemeli YSA gibi çalışan VND’lerin aksine, çevresel uyaranlarla kendisini yenileyen,
-									öngörüsel kodlamanın entegre edildiği, farklı bir yaklaşım ile geliştirilmiş bir STDP yöntemine sahip ve KHA mekanizması
-									içeren VND yapısı nöromorfik donanımlar üzerinde test edilmemiştir. Bu projenin özgün değeri nöral üretken kodlamaya
-									sahip bir VND’nin, lokal öğrenme kuralı ile öngörüsel kodlamayı kullanarak örüntü tanıma yapabilecek forma
-									getirilmesi ve sistemin robotik bir donanım üzerinde çalıştırılmasıdır.
+                Yapay zeka alanındaki gelişmeler, özellikle yapay sinir ağları (YSA) ve nöromorfik donanımlar arasındaki farklılıkları vurgulamaktadır. YSA'lar, örüntü tanıma, sınıflandırma ve doğal dil işleme gibi alanlarda başarı gösterirken, enerji verimliliği ve öğrenme algoritmaları gibi konularda zorluklar yaşamaktadır. Bu nedenle nöromorfik donanımlar, beyin benzeri işlem yetenekleri ve düşük enerji tüketimi gibi avantajlar sunarak alternatif bir çözüm olarak ön plana çıkmaktadır.
+                <br><br>
+                Projenin temelinde, mevcut ileri beslemeli veya yinelemeli yapay sinir ağı (YSA) yapılarından farklı olarak, 
+                çevresel uyaranlarla kendini sürekli yenileyen ve öngörüsel kodlama ile entegre edilmiş bir 
+                Spike-Timing-Dependent Plasticity (STDP) yöntemine dayalı, Kazanan Hepsini Alır (KHA) mekanizmasını 
+                içeren veri üreten nöral devre (VND) yapısının geliştirilmesi ve nöromorfik donanımlar üzerinde test edilmesi amaçlanmaktadır. 
+                <br><br>
 
-									Proje amacına ulaşmak için 4 ana hedef belirlenmiştir: i) VND kullanılarak MNIST veri setinde STDP öğrenme
-									yöntemi ile sınıflandırma yapılması; ii) Öngörüsel kodlamanın algoritmaya entegre edilerek nöral üretken kodlamanın
-									VND’yi sürekli biçimde hata-düzeltimi yapacak düzeye getirmesi; iii) KHA mekanizmasının farklı bir STDP öğrenme kuralı
-									ile test edilmesi ve sonuçların karşılaştırılması; iv) Öngörüsel kodlama, KHA ve lokal olarak yenilen öğrenme
-									algoritmasının nöromorfik donanım üzerinde denenerek etkinliğinin ölçülmesi. Bu dört hedefe ait toplam sekiz iş paketi
-									(İP) tanımlanmıştır. Bu iş paketlerinde simülasyon, modelleme, çıkarım, tasarım, sentez ve test yöntemleri belirlenen
-									hedeflere uygun bir biçimde kullanılacaktır. </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--End of Accordion-->
+Projenin dört ana hedefi şunlardır:
+<br><br>
+<ol>
+    <li>
+        MNIST veri setinde STDP öğrenme yöntemi ile VND kullanarak sınıflandırma yapılması,
+    </li>
+    <li>
+        Öngörüsel kodlamanın algoritmaya entegre edilerek nöral üretken kodlamanın VND'yi hata düzeltme yeteneğine sahip hale getirmesi,
+    </li>
+    <li>
+        KHA mekanizmasının farklı bir STDP öğrenme kuralı ile test edilmesi ve sonuçların karşılaştırılması,
+    </li>
+    <li>
+        Öngörüsel kodlama, KHA ve lokal öğrenme algoritmasının nöromorfik donanım üzerinde etkinliğinin ölçülmesi için test edilmesi.
+    </li>
+</ol>
+
+
             </div>
         </div>
        
@@ -300,14 +251,12 @@ kompleks görevler yerine getiren VND ağının nöfomorfik donanım üzerindeki
                 <div class="card bg-primary border-light shadow-soft">
                     <img src="./assets/img/isbcs.jpg" class="card-img-top rounded-top" alt="Themesberg office">
                     <div class="card-body">
-                        <h3 class="h5 card-title mt-3">ISBCS2024</h3>
-                        <p class="card-text">01/06/24 tarihinde ISBCS2024'te projemizi tanıtacağız.</p>
-                        <a href="#" class="btn btn-primary btn-sm">Daha fazlası...</a
+                        <h3 class="h5 card-title mt-3">Spiking Neural Networks Involving a New Learning Paradigm</h3>
+                        <p class="card-text">01/06/24 tarihinde projemizi tanıtan posterimiz ISBCS2024 kapsamında Ortadoğu Teknik Üniversitesinde Dr. Rahmi ELİBOL tarafından sunuldu.</p>
+                        <a href="https://isbcs2024-ii.metu.edu.tr/en/system/files/isbcs2024-boa-v2.pdf" class="btn btn-primary btn-sm">Book of Abstracts</a
                     </div>
                 </div>
             </div>
-
-    
         </div>
     </div>
 </div>
