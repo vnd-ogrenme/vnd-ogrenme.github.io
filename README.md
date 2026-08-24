@@ -8,6 +8,7 @@ Bu sürüm, mevcut Neumorphism/Bootstrap ağırlıklı tasarımın yerine bağı
 /
 ├── index.html
 ├── haberler.html
+├── haber.html             # haber detay sayfası
 ├── gecmis.html
 ├── yayinlar.html
 ├── sonuclar.html
@@ -29,13 +30,21 @@ Bu sürüm, mevcut Neumorphism/Bootstrap ağırlıklı tasarımın yerine bağı
 
 ```json
 {
+  "id": "yeni-makale-2026",
   "date": "2026-08-24",
   "displayDate": "24 Ağustos 2026",
   "type": "Yayın",
   "title": "Yeni makalemiz yayımlandı",
-  "summary": "Kısa açıklama.",
+  "summary": "Haber kartında görünen kısa açıklama.",
   "image": "./assets/img/yeni-haber.jpg",
-  "url": "./yayinlar.html"
+  "content": [
+    "Haber detay sayfasındaki ilk paragraf.",
+    "İkinci paragraf."
+  ],
+  "meta": ["Etkinlik veya kurum", "Şehir"],
+  "links": [
+    {"label": "Yayını görüntüle", "url": "https://..."}
+  ]
 }
 ```
 

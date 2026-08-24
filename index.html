@@ -1,7 +1,120 @@
-<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>VND Öğrenme | TÜBİTAK 1001</title><meta name="description" content="VND Öğrenme TÜBİTAK 1001 proje web sayfası"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"><link rel="stylesheet" href="./assets/css/site.css"></head><body data-page="home"><div id="site-header"></div><main>
-<section class="hero"><div class="container hero-grid"><div><span class="eyebrow"><span class="dot"></span> Araştırma projesi · TÜBİTAK 1001</span><h1 id="hero-title">VND Öğrenme</h1><p id="hero-desc"></p><div class="hero-actions"><a class="btn primary" href="#proje">Projeyi keşfet ↓</a><a class="btn" href="./yayinlar.html">Yayınlar ↗</a></div></div><aside class="hero-card"><div class="label">Proje durumu</div><div class="value" id="project-status">—</div><hr><div class="status-row"><span>Başlangıç</span><strong id="project-start">—</strong></div><div class="status-row"><span>Program</span><strong>TÜBİTAK 1001</strong></div><div class="status-row"><span>Odak</span><strong>Nöromorfik Yapay Zekâ</strong></div></aside></div></section>
-<div class="container"><div class="metric-strip"><div class="metric"><strong id="publication-count">—</strong><span>Yayın / sunum</span></div><div class="metric"><strong id="news-count">—</strong><span>Proje haberi</span></div><div class="metric"><strong>4</strong><span>Ana araştırma hedefi</span></div><div class="metric"><strong>VND</strong><span>Nöromorfik öğrenme</span></div></div></div>
-<section class="section soft" id="proje"><div class="container"><div class="section-head"><div><span class="eyebrow">Proje hakkında</span><h2>Tek bakışta araştırma fikri.</h2></div><p>Projenin motivasyonu, temel yaklaşımı ve araştırma hedefleri.</p></div><div class="overview-grid"><article class="panel"><h3>Neden bu proje?</h3><div id="overview-copy"></div></article><article class="panel"><h3>Dört ana hedef</h3><div class="objectives" id="objectives"></div></article></div></div></section>
-<section class="section"><div class="container"><div class="section-head"><div><span class="eyebrow">Güncel</span><h2>Projeden haberler.</h2></div><a class="link-arrow" href="./haberler.html">Tüm haberler →</a></div><div class="news-grid" id="news-grid"></div></div></section>
-<section class="section dark"><div class="container"><div class="section-head"><div><span class="eyebrow">Proje çıktıları</span><h2>Bilimsel çalışmalar ve sonuçlar.</h2></div></div><div class="output-grid"><article class="output-card"><span class="num">YAYINLAR</span><h3>Bilimsel yayınlar</h3><p>Proje kapsamında hazırlanan bildiriler, posterler ve makaleler.</p><a href="./yayinlar.html">Yayınları görüntüle →</a></article><article class="output-card"><span class="num">SONUÇLAR</span><h3>Araştırma sonuçları</h3><p>Deneysel bulgular, karşılaştırmalar ve projenin teknik çıktıları.</p><a href="./sonuclar.html">Sonuçları görüntüle →</a></article><article class="output-card"><span class="num">KODLAR</span><h3>Açık kaynak</h3><p>Proje kapsamında geliştirilen açık kaynak kodlar ve uygulamalar.</p><a href="https://github.com/vnd-ogrenme" target="_blank" rel="noopener">GitHub ↗</a></article></div></div></section>
-<div id="page-error" class="container"></div></main><div id="site-footer"></div><script src="./assets/js/site.js"></script></body></html>
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>VND Öğrenme | TÜBİTAK 1001</title>
+  <meta name="description" content="VND Öğrenme TÜBİTAK 1001 proje web sayfası">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/site.css">
+</head>
+<body data-page="home">
+<div id="site-header"></div>
+<main>
+  <section class="hero hero-v2">
+    <div class="container">
+      <div class="hero-shell">
+        <div class="hero-copy">
+          <div class="hero-topline">
+            <span class="eyebrow"><span class="dot"></span> TÜBİTAK 1001 araştırma projesi</span>
+            <span class="status-pill"><span class="status-dot"></span><span id="project-status">—</span></span>
+          </div>
+
+          <h1>VND <span>Öğrenme</span></h1>
+          <p class="official-title" id="hero-title">Yeni Bir Vuru Üreten Nöral Devre Tabanlı Öngörüsel Kodlama Yapısı ve Öğrenme Kuralının Geliştirilmesi</p>
+          <p class="hero-description" id="hero-desc"></p>
+
+          <div class="hero-actions">
+            <a class="btn primary" href="#proje">Projeyi keşfet <span aria-hidden="true">↓</span></a>
+            <a class="btn" href="./yayinlar.html">Yayınlar <span aria-hidden="true">↗</span></a>
+          </div>
+
+          <div class="hero-facts" aria-label="Proje özeti">
+            <div><strong id="project-start">—</strong><span>Başlangıç</span></div>
+            <div><strong>4</strong><span>Ana hedef</span></div>
+            <div><strong id="publication-count">—</strong><span>Yayın / sunum</span></div>
+            <div><strong id="news-count">—</strong><span>Proje haberi</span></div>
+          </div>
+        </div>
+
+        <aside class="research-visual" aria-label="Projenin araştırma ekseni">
+          <div class="visual-header">
+            <span>Araştırma ekseni</span>
+            <span class="visual-index">VND / 1001</span>
+          </div>
+          <div class="network-stage">
+            <svg class="network-lines" viewBox="0 0 520 420" aria-hidden="true">
+              <defs>
+                <linearGradient id="edgeGradient" x1="0" x2="1">
+                  <stop offset="0" stop-color="#7c83ff" stop-opacity=".18"/>
+                  <stop offset=".5" stop-color="#7c83ff" stop-opacity=".75"/>
+                  <stop offset="1" stop-color="#2dd4bf" stop-opacity=".35"/>
+                </linearGradient>
+              </defs>
+              <path d="M258 205 C180 150 137 117 98 90"/>
+              <path d="M258 205 C347 146 389 112 430 83"/>
+              <path d="M258 205 C182 268 142 303 98 334"/>
+              <path d="M258 205 C339 265 385 300 428 338"/>
+              <path class="soft-edge" d="M98 90 C228 45 342 45 430 83"/>
+              <path class="soft-edge" d="M98 334 C223 382 343 382 428 338"/>
+            </svg>
+            <div class="concept-node node-center"><b>VND</b><small>Vuru Üreten<br>Nöral Devre</small></div>
+            <div class="concept-node node-a"><b>STDP</b><small>Yerel öğrenme</small></div>
+            <div class="concept-node node-b"><b>WTA</b><small>Rekabetçi seçim</small></div>
+            <div class="concept-node node-c"><b>PC</b><small>Öngörüsel kodlama</small></div>
+            <div class="concept-node node-d"><b>HW</b><small>Nöromorfik donanım</small></div>
+            <span class="pulse pulse-1"></span>
+            <span class="pulse pulse-2"></span>
+            <span class="pulse pulse-3"></span>
+          </div>
+          <div class="visual-footer">
+            <span>Olay tabanlı hesaplama</span>
+            <span>Yerel öğrenme</span>
+            <span>Düşük güç</span>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="section soft" id="proje">
+    <div class="container">
+      <div class="section-head">
+        <div><span class="eyebrow">Proje hakkında</span><h2>Tek bakışta araştırma fikri.</h2></div>
+        <p>Projenin motivasyonu, temel yaklaşımı ve araştırma hedefleri.</p>
+      </div>
+      <div class="overview-grid">
+        <article class="panel"><h3>Neden bu proje?</h3><div id="overview-copy"></div></article>
+        <article class="panel"><h3>Dört ana hedef</h3><div class="objectives" id="objectives"></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div><span class="eyebrow">Güncel</span><h2>Projeden haberler.</h2></div>
+        <a class="link-arrow" href="./haberler.html">Tüm haberler →</a>
+      </div>
+      <div class="news-grid" id="news-grid"></div>
+    </div>
+  </section>
+
+  <section class="section dark">
+    <div class="container">
+      <div class="section-head"><div><span class="eyebrow">Proje çıktıları</span><h2>Bilimsel çalışmalar ve sonuçlar.</h2></div></div>
+      <div class="output-grid">
+        <article class="output-card"><span class="num">YAYINLAR</span><h3>Bilimsel yayınlar</h3><p>Proje kapsamında hazırlanan bildiriler, posterler ve makaleler.</p><a href="./yayinlar.html">Yayınları görüntüle →</a></article>
+        <article class="output-card"><span class="num">SONUÇLAR</span><h3>Araştırma sonuçları</h3><p>Deneysel bulgular, karşılaştırmalar ve projenin teknik çıktıları.</p><a href="./sonuclar.html">Sonuçları görüntüle →</a></article>
+        <article class="output-card"><span class="num">KODLAR</span><h3>Açık kaynak</h3><p>Proje kapsamında geliştirilen açık kaynak kodlar ve uygulamalar.</p><a href="https://github.com/vnd-ogrenme" target="_blank" rel="noopener">GitHub ↗</a></article>
+      </div>
+    </div>
+  </section>
+  <div id="page-error" class="container"></div>
+</main>
+<div id="site-footer"></div>
+<script src="./assets/js/site.js"></script>
+</body>
+</html>
