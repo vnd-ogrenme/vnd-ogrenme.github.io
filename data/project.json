@@ -1,0 +1,21 @@
+{
+  "shortName": "VND Öğrenme",
+  "program": "TÜBİTAK 1001",
+  "title": "Yeni Bir Vuru Üreten Nöral Devre Tabanlı Öngörüsel Kodlama Yapısı ve Öğrenme Kuralının Geliştirilmesi",
+  "status": "Devam ediyor",
+  "startDate": "15 Mart 2024",
+  "description": "Vuru üreten nöral devreleri, öngörüsel kodlama ve yerel öğrenme mekanizmalarıyla bir araya getirerek yeni bir öğrenme yaklaşımının geliştirilmesi ve nöromorfik donanımlar üzerinde sınanması.",
+  "overview": [
+    "Yapay sinir ağları örüntü tanıma ve sınıflandırmada güçlü sonuçlar üretirken enerji verimliliği ve biyolojik olarak yerel öğrenme açısından önemli kısıtlar taşır. Nöromorfik sistemler, olay tabanlı hesaplama ve düşük güç tüketimiyle bu probleme alternatif bir yaklaşım sunar.",
+    "Proje; çevresel uyaranlarla kendini sürekli yenileyen Vuru Üreten Nöral Devre (VND) yapısını, öngörüsel kodlama, Spike-Timing-Dependent Plasticity (STDP) ve Kazanan Hepsini Alır (KHA/WTA) mekanizmalarıyla birlikte ele almaktadır."
+  ],
+  "objectives": [
+    "MNIST veri setinde STDP öğrenme yöntemi ile VND kullanarak sınıflandırma yapılması.",
+    "Öngörüsel kodlamanın algoritmaya entegre edilerek VND'nin hata düzeltme yeteneğinin geliştirilmesi.",
+    "KHA mekanizmasının farklı bir STDP öğrenme kuralı ile test edilmesi ve sonuçların karşılaştırılması.",
+    "Öngörüsel kodlama, KHA ve lokal öğrenme algoritmasının nöromorfik donanım üzerindeki etkinliğinin test edilmesi."
+  ],
+  "links": {
+    "github": "https://github.com/vnd-ogrenme"
+  }
+}

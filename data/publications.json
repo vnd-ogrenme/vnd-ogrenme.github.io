@@ -1,0 +1,47 @@
+[
+  {
+    "year": 2025,
+    "type": "Conference paper",
+    "title": "Kontrastlı Öngörüsel Kodlama ile Vuru Üreten Nöral Devrelerin Entegrasyonu",
+    "venue": "33. IEEE Sinyal İşleme ve İletişim Uygulamaları Kurultayı (SİU 2025)",
+    "doi": "10.1109/SIU66497.2025.11112390",
+    "url": "https://doi.org/10.1109/SIU66497.2025.11112390"
+  },
+  {
+    "year": 2025,
+    "type": "Conference paper",
+    "title": "Vuru Üreten Nöron Grupları ile Gözetimsiz Örüntü Tanıma",
+    "venue": "33. IEEE Sinyal İşleme ve İletişim Uygulamaları Kurultayı (SİU 2025)",
+    "doi": "10.1109/SIU66497.2025.11111912",
+    "url": "https://doi.org/10.1109/SIU66497.2025.11111912"
+  },
+  {
+    "year": 2025,
+    "type": "Conference paper",
+    "title": "Analysis of Learning and Inference in Spiking Neurons via Synaptic Plasticity",
+    "venue": "Akıllı Sistemlerde Yenilikler ve Uygulamaları Konferansı (ASYU 2025)",
+    "doi": "10.1109/ASYU67174.2025.11208407",
+    "url": "https://doi.org/10.1109/ASYU67174.2025.11208407"
+  },
+  {
+    "year": 2025,
+    "type": "Conference paper",
+    "title": "Predictive Coding of Spiking Neural Network in Continuous Time",
+    "venue": "Akıllı Sistemlerde Yenilikler ve Uygulamaları Konferansı (ASYU 2025)",
+    "doi": "10.1109/ASYU67174.2025.11208297",
+    "url": "https://doi.org/10.1109/ASYU67174.2025.11208297"
+  },
+  {
+    "year": 2024,
+    "type": "Poster",
+    "title": "Spiking Neural Networks Involving a New Learning Paradigm",
+    "venue": "10th International Symposium on Brain and Cognitive Science",
+    "url": "https://isbcs2024-ii.metu.edu.tr/en/system/files/isbcs2024-boa-v2.pdf"
+  },
+  {
+    "year": 2024,
+    "type": "Poster",
+    "title": "Vuru Üreten Nöral Devrelerde Çevresel Kısıtlamanın Süregelen Etkinliğe Tesiri",
+    "venue": "22. Ulusal Sinirbilim Kongresi"
+  }
+]

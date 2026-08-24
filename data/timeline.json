@@ -1,0 +1,78 @@
+[
+  {
+    "id": "project-start",
+    "date": "2024-03-15",
+    "displayDate": "15 Mart 2024",
+    "year": "2024",
+    "category": "Proje",
+    "title": "Proje başlangıcı",
+    "description": "“Yeni Bir Vuru Üreten Nöral Devre Tabanlı Öngörüsel Kodlama Yapısı ve Öğrenme Kuralının Geliştirilmesi” başlıklı TÜBİTAK 1001 projesi başlatıldı."
+  },
+  {
+    "id": "wta-research",
+    "date": "2024-05-01",
+    "displayDate": "Mayıs 2024",
+    "year": "2024",
+    "category": "Araştırma",
+    "title": "Kazanan Hepsini Alır (WTA) araştırmaları",
+    "description": "Probabilistic decision making by slow reverberation in cortical circuits başlıklı çalışma üzerinden literatür incelemesi ve kavramsal çerçeve çalışmaları yürütüldü.",
+    "links": [{"label": "Makale", "url": "https://pubmed.ncbi.nlm.nih.gov/12467598/"}]
+  },
+  {
+    "id": "isbcs-2024",
+    "date": "2024-06-01",
+    "displayDate": "1 Haziran 2024",
+    "year": "2024",
+    "category": "Poster",
+    "title": "10th International Symposium on Brain and Cognitive Science",
+    "description": "Orta Doğu Teknik Üniversitesi’nde “Spiking Neural Networks Involving a New Learning Paradigm” başlıklı çalışma poster olarak sunuldu.",
+    "meta": ["Ankara, Türkiye"]
+  },
+  {
+    "id": "mnist-2024",
+    "date": "2024-06-15",
+    "displayDate": "Haziran 2024",
+    "year": "2024",
+    "category": "Araştırma",
+    "title": "MNIST veri kümesi çalışmaları",
+    "description": "MNIST veri kümesi üzerinde vuru üreten sınıflandırıcı ağlar ve gözetimsiz öğrenme yaklaşımları üzerine araştırmalar gerçekleştirildi."
+  },
+  {
+    "id": "usk-2024",
+    "date": "2024-09-06",
+    "displayDate": "3–6 Eylül 2024",
+    "year": "2024",
+    "category": "Poster",
+    "title": "22. Ulusal Sinirbilim Kongresi",
+    "description": "İstanbul Üniversitesi-Cerrahpaşa’da “Vuru Üreten Nöral Devrelerde Çevresel Kısıtlamanın Süregelen Etkinliğe Tesiri” başlıklı çalışma poster olarak sunuldu.",
+    "meta": ["İstanbul, Türkiye"]
+  },
+  {
+    "id": "siu-2025",
+    "date": "2025-06-28",
+    "displayDate": "25–28 Haziran 2025",
+    "year": "2025",
+    "category": "Bildiri",
+    "title": "SİU 2025 — iki sözlü sunum",
+    "description": "33. IEEE Sinyal İşleme ve İletişim Uygulamaları Kurultayı kapsamında iki bildiri ile katılım sağlandı ve sözlü sunumlar gerçekleştirildi.",
+    "meta": ["Makine Öğrenmesi ve Yapay Zeka-4", "Işık Üniversitesi, Şile, İstanbul"],
+    "items": [
+      "Kontrastlı Öngörüsel Kodlama ile Vuru Üreten Nöral Devrelerin Entegrasyonu — DOI: 10.1109/SIU66497.2025.11112390",
+      "Vuru Üreten Nöron Grupları ile Gözetimsiz Örüntü Tanıma — DOI: 10.1109/SIU66497.2025.11111912"
+    ]
+  },
+  {
+    "id": "asyu-2025",
+    "date": "2025-09-12",
+    "displayDate": "10–12 Eylül 2025",
+    "year": "2025",
+    "category": "Bildiri",
+    "title": "ASYU 2025 — özel oturum ve iki bildiri",
+    "description": "Akıllı Sistemlerde Yenilikler ve Uygulamaları Konferansı kapsamında özel oturum düzenlendi ve iki bildiri ile katılım sağlandı.",
+    "meta": ["Bursa Teknik Üniversitesi, Bursa", "Bildiriler 30 Ekim 2025 tarihinde yayımlandı"],
+    "items": [
+      "Analysis of Learning and Inference in Spiking Neurons via Synaptic Plasticity — DOI: 10.1109/ASYU67174.2025.11208407",
+      "Predictive Coding of Spiking Neural Network in Continuous Time — DOI: 10.1109/ASYU67174.2025.11208297"
+    ]
+  }
+]

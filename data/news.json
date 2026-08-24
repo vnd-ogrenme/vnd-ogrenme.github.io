@@ -1,0 +1,39 @@
+[
+  {
+    "date": "2025-09-12",
+    "displayDate": "10–12 Eylül 2025",
+    "type": "Konferans",
+    "title": "ASYU 2025’te özel oturum ve iki bildiri",
+    "summary": "Bursa Teknik Üniversitesi’nde düzenlenen ASYU 2025 kapsamında özel oturum düzenlendi ve proje ekibi iki bildiri ile katılım sağladı.",
+    "image": "./assets/img/asyu2025.jpg",
+    "url": "./gecmis.html#asyu-2025"
+  },
+  {
+    "date": "2025-06-28",
+    "displayDate": "25–28 Haziran 2025",
+    "type": "Konferans",
+    "title": "SİU 2025’te iki sözlü sunum",
+    "summary": "33. IEEE Sinyal İşleme ve İletişim Uygulamaları Kurultayı’nda iki bildiri Makine Öğrenmesi ve Yapay Zeka-4 oturumunda sunuldu.",
+    "image": "./assets/img/siu2025.jpg",
+    "url": "./gecmis.html#siu-2025"
+  },
+  {
+    "date": "2024-09-06",
+    "displayDate": "3–6 Eylül 2024",
+    "type": "Poster",
+    "title": "22. Ulusal Sinirbilim Kongresi poster sunumu",
+    "summary": "“Vuru Üreten Nöral Devrelerde Çevresel Kısıtlamanın Süregelen Etkinliğe Tesiri” başlıklı çalışma poster olarak sunuldu.",
+    "image": "./assets/img/ulusal_sinirbilim.jpg",
+    "url": "./gecmis.html#usk-2024"
+  },
+  {
+    "date": "2024-06-01",
+    "displayDate": "1 Haziran 2024",
+    "type": "Poster",
+    "title": "ISBCS 2024 poster sunumu",
+    "summary": "“Spiking Neural Networks Involving a New Learning Paradigm” başlıklı poster Orta Doğu Teknik Üniversitesi’nde sunuldu.",
+    "image": "./assets/img/isbcs.jpg",
+    "url": "./gecmis.html#isbcs-2024",
+    "externalUrl": "https://isbcs2024-ii.metu.edu.tr/en/system/files/isbcs2024-boa-v2.pdf"
+  }
+]

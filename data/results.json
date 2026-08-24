@@ -1,0 +1,21 @@
+[
+  {
+    "category": "Araştırma sonuçları",
+    "title": "Deneysel bulgular",
+    "description": "Proje kapsamında elde edilen deneysel sonuçlar ve karşılaştırmalı analizler bu bölümde paylaşılacaktır.",
+    "status": "Çalışmalar sürüyor",
+    "links": []
+  },
+  {
+    "category": "Yazılım",
+    "title": "Açık kaynak kodlar",
+    "description": "Proje kapsamında geliştirilen açık kaynak kodlara ve uygulamalara GitHub üzerinden erişilebilir.",
+    "status": "Erişime açık",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/vnd-ogrenme"
+      }
+    ]
+  }
+]
