@@ -6,7 +6,7 @@
     "type": "Konferans",
     "title": "ASYU 2025’te özel oturum ve iki bildiri",
     "summary": "Bursa Teknik Üniversitesi’nde düzenlenen ASYU 2025 kapsamında özel oturum düzenlendi ve proje ekibi iki bildiri ile katılım sağladı.",
-    "image": "./assets/img/asyu2025.jpg",
+    "image": "https://vnd-ogrenme.github.io/assets/img/asyu2025.jpg",
     "content": [
       "10–12 Eylül 2025 tarihlerinde Bursa Teknik Üniversitesi’nde düzenlenen Akıllı Sistemlerde Yenilikler ve Uygulamaları Konferansı (ASYU 2025) kapsamında proje ekibi özel oturum düzenledi ve iki bildiri ile katılım sağladı.",
       "Konferans kapsamında projenin öğrenme ve öngörüsel kodlama eksenlerindeki çalışmalar sözlü bildiri olarak sunuldu. Bildiriler 30 Ekim 2025 tarihinde konferans kayıtlarında yayımlandı."
@@ -15,7 +15,10 @@
       "Analysis of Learning and Inference in Spiking Neurons via Synaptic Plasticity — DOI: 10.1109/ASYU67174.2025.11208407",
       "Predictive Coding of Spiking Neural Network in Continuous Time — DOI: 10.1109/ASYU67174.2025.11208297"
     ],
-    "meta": ["Bursa Teknik Üniversitesi", "Bursa"]
+    "meta": [
+      "Bursa Teknik Üniversitesi",
+      "Bursa"
+    ]
   },
   {
     "id": "siu-2025",
@@ -24,7 +27,7 @@
     "type": "Konferans",
     "title": "SİU 2025’te iki sözlü sunum",
     "summary": "33. IEEE Sinyal İşleme ve İletişim Uygulamaları Kurultayı’nda iki bildiri Makine Öğrenmesi ve Yapay Zeka-4 oturumunda sunuldu.",
-    "image": "./assets/img/siu2025.jpg",
+    "image": "https://vnd-ogrenme.github.io/assets/img/siu2025.jpg",
     "content": [
       "25–28 Haziran 2025 tarihlerinde Işık Üniversitesi’nde düzenlenen 33. IEEE Sinyal İşleme ve İletişim Uygulamaları Kurultayı (SİU 2025) kapsamında proje ekibi iki bildiri ile katılım sağladı.",
       "Her iki çalışma da Makine Öğrenmesi ve Yapay Zeka-4 oturumunda sözlü olarak sunuldu."
@@ -33,7 +36,10 @@
       "Kontrastlı Öngörüsel Kodlama ile Vuru Üreten Nöral Devrelerin Entegrasyonu — DOI: 10.1109/SIU66497.2025.11112390",
       "Vuru Üreten Nöron Grupları ile Gözetimsiz Örüntü Tanıma — DOI: 10.1109/SIU66497.2025.11111912"
     ],
-    "meta": ["Işık Üniversitesi", "Şile, İstanbul"]
+    "meta": [
+      "Işık Üniversitesi",
+      "Şile, İstanbul"
+    ]
   },
   {
     "id": "usk-2024",
@@ -42,13 +48,18 @@
     "type": "Poster",
     "title": "22. Ulusal Sinirbilim Kongresi poster sunumu",
     "summary": "“Vuru Üreten Nöral Devrelerde Çevresel Kısıtlamanın Süregelen Etkinliğe Tesiri” başlıklı çalışma poster olarak sunuldu.",
-    "image": "./assets/img/ulusal_sinirbilim.jpg",
+    "image": "https://vnd-ogrenme.github.io/assets/img/ulusal_sinirbilim.jpg",
     "content": [
       "3–6 Eylül 2024 tarihlerinde İstanbul Üniversitesi-Cerrahpaşa Mühendislik Fakültesi Konferans Salonu’nda düzenlenen 22. Ulusal Sinirbilim Kongresi’nde proje kapsamında hazırlanan çalışma poster olarak sunuldu.",
       "Sunumda vuru üreten nöral devrelerde çevresel kısıtlamanın süregelen etkinlik üzerindeki etkisi ele alındı."
     ],
-    "items": ["Vuru Üreten Nöral Devrelerde Çevresel Kısıtlamanın Süregelen Etkinliğe Tesiri"],
-    "meta": ["İstanbul Üniversitesi-Cerrahpaşa", "İstanbul"]
+    "items": [
+      "Vuru Üreten Nöral Devrelerde Çevresel Kısıtlamanın Süregelen Etkinliğe Tesiri"
+    ],
+    "meta": [
+      "İstanbul Üniversitesi-Cerrahpaşa",
+      "İstanbul"
+    ]
   },
   {
     "id": "isbcs-2024",
@@ -57,15 +68,23 @@
     "type": "Poster",
     "title": "ISBCS 2024 poster sunumu",
     "summary": "“Spiking Neural Networks Involving a New Learning Paradigm” başlıklı poster Orta Doğu Teknik Üniversitesi’nde sunuldu.",
-    "image": "./assets/img/isbcs.jpg",
+    "image": "https://vnd-ogrenme.github.io/assets/img/isbcs.jpg",
     "content": [
       "1 Haziran 2024 tarihinde Orta Doğu Teknik Üniversitesi’nde düzenlenen 10th International Symposium on Brain and Cognitive Science kapsamında proje çalışmaları poster sunumu ile tanıtıldı.",
       "Spiking Neural Networks Involving a New Learning Paradigm başlıklı poster Dr. Rahmi Elibol tarafından sunuldu."
     ],
-    "items": ["Spiking Neural Networks Involving a New Learning Paradigm"],
-    "meta": ["Orta Doğu Teknik Üniversitesi", "Ankara"],
+    "items": [
+      "Spiking Neural Networks Involving a New Learning Paradigm"
+    ],
+    "meta": [
+      "Orta Doğu Teknik Üniversitesi",
+      "Ankara"
+    ],
     "links": [
-      {"label": "Book of Abstracts", "url": "https://isbcs2024-ii.metu.edu.tr/en/system/files/isbcs2024-boa-v2.pdf"}
+      {
+        "label": "Book of Abstracts",
+        "url": "https://isbcs2024-ii.metu.edu.tr/en/system/files/isbcs2024-boa-v2.pdf"
+      }
     ]
   }
 ]

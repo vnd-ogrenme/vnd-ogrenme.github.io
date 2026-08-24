@@ -8,7 +8,6 @@ Bu sürüm, mevcut Neumorphism/Bootstrap ağırlıklı tasarımın yerine bağı
 /
 ├── index.html
 ├── haberler.html
-├── haber.html             # haber detay sayfası
 ├── gecmis.html
 ├── yayinlar.html
 ├── sonuclar.html
@@ -30,21 +29,13 @@ Bu sürüm, mevcut Neumorphism/Bootstrap ağırlıklı tasarımın yerine bağı
 
 ```json
 {
-  "id": "yeni-makale-2026",
   "date": "2026-08-24",
   "displayDate": "24 Ağustos 2026",
   "type": "Yayın",
   "title": "Yeni makalemiz yayımlandı",
-  "summary": "Haber kartında görünen kısa açıklama.",
+  "summary": "Kısa açıklama.",
   "image": "./assets/img/yeni-haber.jpg",
-  "content": [
-    "Haber detay sayfasındaki ilk paragraf.",
-    "İkinci paragraf."
-  ],
-  "meta": ["Etkinlik veya kurum", "Şehir"],
-  "links": [
-    {"label": "Yayını görüntüle", "url": "https://..."}
-  ]
+  "url": "./yayinlar.html"
 }
 ```
 
@@ -96,3 +87,7 @@ Ardından `http://localhost:8000` adresini açın.
 ## GitHub Pages'e taşıma
 
 Bu klasördeki dosyaları mevcut repository köküne kopyalayın. Mevcut `assets/img` içindeki proje görsellerinizi koruyun / yeni yapının `assets/img` klasörüne taşıyın. GitHub Pages statik JSON dosyalarını sorunsuz servis eder.
+
+## Görseller
+
+Haber görselleri `data/news.json` içinde mevcut proje sitesindeki kalıcı `https://vnd-ogrenme.github.io/assets/img/...` adreslerini kullanır. Böylece siteyi yeni bir klasörde açarken `assets/img` klasörü eksik olsa bile haber görselleri kaybolmaz. İsterseniz daha sonra bu URL'leri yeniden yerel `./assets/img/...` yollarına çevirebilirsiniz.
