@@ -9,21 +9,206 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/site.css">
+
+  <style>
+    /* Bu sayfaya özel geçici çalıştay stilleri */
+    .workshop-program-shell {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 24px;
+      margin-top: 34px;
+    }
+
+    .workshop-day-card {
+      background: #fff;
+      border: 1px solid var(--line, #e5e7eb);
+      border-radius: 26px;
+      overflow: hidden;
+      box-shadow: 0 12px 34px rgba(15, 23, 42, .045);
+    }
+
+    .workshop-day-head {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 28px 28px 24px;
+      border-bottom: 1px solid var(--line, #e5e7eb);
+      background: linear-gradient(180deg, #fff 0%, #fafbff 100%);
+    }
+
+    .workshop-day-index {
+      display: block;
+      margin-bottom: 7px;
+      color: #655cf6;
+      font-size: .69rem;
+      line-height: 1;
+      font-weight: 900;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+
+    .workshop-day-head h3 {
+      margin: 0;
+      font-size: 1.55rem;
+      letter-spacing: -.035em;
+    }
+
+    .workshop-day-head time {
+      color: #6b7280;
+      font-size: .78rem;
+      font-weight: 750;
+      white-space: nowrap;
+    }
+
+    .workshop-slots {
+      padding: 22px;
+      display: grid;
+      gap: 16px;
+    }
+
+    .workshop-slot {
+      min-height: 190px;
+      display: grid;
+      grid-template-columns: 122px minmax(0, 1fr);
+      border: 1px solid #e8eaf0;
+      border-radius: 20px;
+      overflow: hidden;
+      background: #fff;
+    }
+
+    .workshop-slot-time {
+      padding: 25px 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background: #f7f7fb;
+      border-right: 1px solid #e8eaf0;
+    }
+
+    .workshop-slot-time span {
+      color: #9aa1ad;
+      font-size: .65rem;
+      font-weight: 900;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    .workshop-slot-time strong {
+      color: #111827;
+      font-size: 1rem;
+      line-height: 1.35;
+      letter-spacing: -.02em;
+    }
+
+    .workshop-slot-body {
+      min-height: 188px;
+      position: relative;
+      padding: 26px 28px;
+    }
+
+    /* İçerik şimdilik özellikle boş bırakılıyor. */
+    .workshop-slot-body::after {
+      content: "";
+      position: absolute;
+      left: 28px;
+      right: 28px;
+      bottom: 27px;
+      height: 1px;
+      background: #f0f1f5;
+    }
+
+    .workshop-note-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      margin-top: 28px;
+      padding: 18px 20px;
+      border: 1px solid var(--line, #e5e7eb);
+      border-radius: 16px;
+      background: #fff;
+      color: #697386;
+      font-size: .82rem;
+    }
+
+    .workshop-note-bar strong {
+      color: #111827;
+    }
+
+    @media (max-width: 900px) {
+      .workshop-program-shell {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .workshop-day-head {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .workshop-slots {
+        padding: 14px;
+      }
+
+      .workshop-slot {
+        grid-template-columns: 1fr;
+        min-height: 230px;
+      }
+
+      .workshop-slot-time {
+        min-height: 74px;
+        padding: 16px 18px;
+        flex-direction: row;
+        align-items: center;
+        border-right: 0;
+        border-bottom: 1px solid #e8eaf0;
+      }
+
+      .workshop-slot-body {
+        min-height: 150px;
+      }
+
+      .workshop-note-bar {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+    }
+  </style>
 </head>
-<body data-page="workshop">
+
+<body data-page="workshop-static">
 <div id="site-header"></div>
+
 <main>
   <section class="workshop-hero">
     <div class="container workshop-hero-grid">
       <div>
-        <div class="workshop-kicker light"><span class="live-dot"></span><span id="workshop-status">Program taslağı</span></div>
-        <h1 id="workshop-title">TÜBİTAK 1001<br>Proje Çıktıları <span>Çalıştayı</span></h1>
-        <p class="workshop-subtitle" id="workshop-subtitle"></p>
+        <div class="workshop-kicker light">
+          <span class="live-dot"></span>
+          <span>Program taslağı</span>
+        </div>
+
+        <h1>TÜBİTAK 1001<br>Proje Çıktıları <span>Çalıştayı</span></h1>
+
+        <p class="workshop-subtitle">
+          Yeni Bir Vuru Üreten Nöral Devre Tabanlı Öngörüsel Kodlama Yapısı ve Öğrenme Kuralının Geliştirilmesi
+        </p>
+
         <div class="workshop-hero-meta">
-          <div><small>Tarih</small><strong id="workshop-date">24–25 Eylül 2026</strong></div>
-          <div><small>Yer</small><strong id="workshop-place">Osmaniye Korkut Ata Üniversitesi</strong><span id="workshop-department"></span></div>
+          <div>
+            <small>Tarih</small>
+            <strong>24–25 Eylül 2026</strong>
+          </div>
+          <div>
+            <small>Yer</small>
+            <strong>Osmaniye Korkut Ata Üniversitesi</strong>
+            <span>Elektrik-Elektronik Mühendisliği Bölümü · Osmaniye, Türkiye</span>
+          </div>
         </div>
       </div>
+
       <div class="workshop-date-block" aria-hidden="true">
         <span class="date-block-label">EYLÜL 2026</span>
         <div><strong>24</strong><i>→</i><strong>25</strong></div>
@@ -36,33 +221,102 @@
     <div class="container workshop-intro-grid">
       <div>
         <span class="eyebrow">Çalıştay hakkında</span>
-        <h2>İki gün boyunca proje çıktıları, yöntemler ve uygulamalar.</h2>
+        <h2>Proje çıktılarının iki günlük bilimsel programla paylaşılması.</h2>
       </div>
-      <p id="workshop-description"></p>
+      <p>
+        Çalıştay kapsamında proje süresince yürütülen araştırmalar, geliştirilen yöntemler ve elde edilen bilimsel çıktılar ele alınacaktır.
+      </p>
     </div>
   </section>
 
   <section class="section soft workshop-program-section">
     <div class="container">
       <div class="section-head">
-        <div><span class="eyebrow">Program</span><h2>Oturum planı.</h2></div>
-        <span class="draft-note">Program taslağı · Güncellenebilir</span>
+        <div>
+          <span class="eyebrow">Program</span>
+          <h2>İki gün, dört oturum.</h2>
+        </div>
+        <span class="draft-note">Taslak program</span>
       </div>
-      <div class="program-days" id="workshop-days"></div>
+
+      <div class="workshop-program-shell">
+        <!-- 1. GÜN -->
+        <article class="workshop-day-card">
+          <header class="workshop-day-head">
+            <div>
+              <span class="workshop-day-index">01 / Birinci gün</span>
+              <h3>24 Eylül 2026</h3>
+            </div>
+            <time datetime="2026-09-24">Perşembe</time>
+          </header>
+
+          <div class="workshop-slots">
+            <section class="workshop-slot" aria-label="24 Eylül sabah oturumu">
+              <div class="workshop-slot-time">
+                <span>Sabah</span>
+                <strong>10:00<br>— 12:00</strong>
+              </div>
+              <div class="workshop-slot-body"></div>
+            </section>
+
+            <section class="workshop-slot" aria-label="24 Eylül öğleden sonra oturumu">
+              <div class="workshop-slot-time">
+                <span>Öğleden sonra</span>
+                <strong>14:00<br>— 16:00</strong>
+              </div>
+              <div class="workshop-slot-body"></div>
+            </section>
+          </div>
+        </article>
+
+        <!-- 2. GÜN -->
+        <article class="workshop-day-card">
+          <header class="workshop-day-head">
+            <div>
+              <span class="workshop-day-index">02 / İkinci gün</span>
+              <h3>25 Eylül 2026</h3>
+            </div>
+            <time datetime="2026-09-25">Cuma</time>
+          </header>
+
+          <div class="workshop-slots">
+            <section class="workshop-slot" aria-label="25 Eylül sabah oturumu">
+              <div class="workshop-slot-time">
+                <span>Sabah</span>
+                <strong>10:00<br>— 12:00</strong>
+              </div>
+              <div class="workshop-slot-body"></div>
+            </section>
+
+            <section class="workshop-slot" aria-label="25 Eylül öğleden sonra oturumu">
+              <div class="workshop-slot-time">
+                <span>Öğleden sonra</span>
+                <strong>14:00<br>— 16:00</strong>
+              </div>
+              <div class="workshop-slot-body"></div>
+            </section>
+          </div>
+        </article>
+      </div>
+
+      <div class="workshop-note-bar">
+        <span><strong>24–25 Eylül 2026</strong> · Osmaniye Korkut Ata Üniversitesi</span>
+        <span>Oturum içerikleri program kesinleştikçe duyurulacaktır.</span>
+      </div>
     </div>
   </section>
 
-  <section class="section">
-    <div class="container speakers-section">
-      <div class="section-head">
-        <div><span class="eyebrow">Katılımcılar</span><h2>Oturum konuşmacıları.</h2></div>
-      </div>
-      <div class="speaker-list" id="workshop-speakers"></div>
-    </div>
-  </section>
   <div id="page-error" class="container"></div>
 </main>
+
 <div id="site-footer"></div>
+
 <script src="./assets/js/site.js"></script>
+<script>
+  /* site.js yalnızca ortak header/footer için kullanılıyor; program bu sayfada statik taslak. */
+  document.addEventListener('DOMContentLoaded', function () {
+    if (typeof mountChrome === 'function') mountChrome('workshop');
+  });
+</script>
 </body>
 </html>
