@@ -91,3 +91,8 @@ Bu klasördeki dosyaları mevcut repository köküne kopyalayın. Mevcut `assets
 ## Görseller
 
 Haber görselleri `data/news.json` içinde mevcut proje sitesindeki kalıcı `https://vnd-ogrenme.github.io/assets/img/...` adreslerini kullanır. Böylece siteyi yeni bir klasörde açarken `assets/img` klasörü eksik olsa bile haber görselleri kaybolmaz. İsterseniz daha sonra bu URL'leri yeniden yerel `./assets/img/...` yollarına çevirebilirsiniz.
+
+
+## Çalıştay
+
+`data/workshop.json` yaklaşan çalıştayın tarih, yer, konuşmacı ve program bilgisini tutar. Ana sayfadaki çalıştay bölümü ve `calistay.html` bu kaynaktan beslenir.
