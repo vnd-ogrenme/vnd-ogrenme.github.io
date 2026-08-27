@@ -1,5 +1,18 @@
 [
   {
+    "year": 2026,
+    "type": "Conference paper",
+    "title": "Mobil Robotlarda Konvolüsyonel Ve Vuru Üreten Sinir Ağları İle Rakam Tanıma",
+    "venue": "IEEE Sinyal İşleme ve İletişim Uygulamaları Kurultayı (SİU 2026)",
+    "paperNo": "773",
+    "authors": [
+      "Özge Bakır",
+      "Aykut Görkem Gelen"
+    ],
+    "session": "G1-Öğ-112 — Robotik Algılama, SLAM ve Konum Kestirimi",
+    "abstract": "Mobil robot sistemlerinde görüntü tabanlı algılama yöntemleri çevrenin algılanmasında kritik bir rol oynamaktadır. Bu çalışmada, mobil robot sistemlerinde görüntü tabanlı rakam tanıma problemi ele alınmış ve konvolüsyonel sinir ağları ile vuru üreten sinir ağları aynı sistem mimarisi altında uygulanmıştır. Robot, duvarlarında MNIST etiketleri bulunan bir labirentte örüntüleri tanımak üzere serbestçe dolaşmaktadır. Önerilen sistem, ROS2 tabanlı bir yapı üzerinde gerçekleştirilmiş olup kameradan elde edilen görüntüler hedef tespiti ve ön işleme adımlarından geçirilerek tanıma modellerine giriş olarak verilmiştir. Öncelikle konvolüsyonel sinir ağları ile sistem doğrulanmış, ardından gözetimsiz eğitilen vuru üreten sinir ağı ile değiştirilmiştir. Çalışma, farklı sinir ağı yaklaşımlarının mobil robot sistemlerinde uygulanabilirliğini göstermektedir. Gelecekte geliştirilecek gerçek zamanlı ve enerji verimli nöromorfik robotik algılama sistemlerine katkı sağlayacağı değerlendirilmektedir."
+  },
+  {
     "year": 2025,
     "type": "Conference paper",
     "title": "Kontrastlı Öngörüsel Kodlama ile Vuru Üreten Nöral Devrelerin Entegrasyonu",
