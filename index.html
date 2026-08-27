@@ -9,6 +9,36 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/site.css">
+
+  <style>
+    /* Home workshop banner — self-contained so index.html works with the existing site.css */
+    .home-workshop-section{padding:34px 0 74px;background:#fff;}
+    .home-workshop-card{
+      position:relative;display:grid;grid-template-columns:190px minmax(0,1fr) auto;align-items:stretch;
+      overflow:hidden;border-radius:28px;background:linear-gradient(125deg,#101827 0%,#151d30 66%,#1b2240 100%);
+      color:#fff;border:1px solid rgba(255,255,255,.06);box-shadow:0 24px 60px rgba(16,24,40,.15);
+      transition:transform .22s ease,box-shadow .22s ease;
+    }
+    .home-workshop-card:hover{transform:translateY(-2px);box-shadow:0 30px 72px rgba(16,24,40,.20);}
+    .home-workshop-card:before{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(circle at 78% 0%,rgba(99,102,241,.28),transparent 34%);}
+    .home-workshop-date{position:relative;z-index:1;display:flex;flex-direction:column;justify-content:center;min-height:250px;padding:34px;border-right:1px solid rgba(255,255,255,.10);background:linear-gradient(160deg,rgba(99,102,241,.28),rgba(99,102,241,.06));}
+    .home-workshop-date .day{font-size:3.55rem;line-height:.88;font-weight:900;letter-spacing:-.075em;white-space:nowrap;}
+    .home-workshop-date .month{margin-top:12px;font-size:.76rem;font-weight:900;letter-spacing:.24em;color:#c7d2fe;}
+    .home-workshop-date .year{margin-top:5px;color:#94a3b8;font-size:.74rem;font-weight:800;letter-spacing:.08em;}
+    .home-workshop-copy{position:relative;z-index:1;align-self:center;padding:34px 42px;}
+    .home-workshop-kicker{display:flex;align-items:center;gap:9px;margin-bottom:14px;color:#7dd3fc;font-size:.68rem;font-weight:900;text-transform:uppercase;letter-spacing:.14em;}
+    .home-workshop-kicker:before{content:"";width:7px;height:7px;border-radius:50%;background:#2dd4bf;box-shadow:0 0 0 5px rgba(45,212,191,.10);}
+    .home-workshop-copy h2{margin:0;max-width:720px;font-size:clamp(1.8rem,3vw,2.75rem);line-height:1.02;letter-spacing:-.045em;}
+    .home-workshop-copy p{margin:13px 0 17px;max-width:720px;color:#b7c2d1;font-size:.94rem;line-height:1.65;}
+    .home-workshop-place{display:flex;align-items:center;gap:9px;color:#e5e7eb;font-size:.82rem;font-weight:750;}
+    .home-workshop-place small{color:#8f9bad;font-weight:600;}
+    .home-workshop-action{position:relative;z-index:1;display:flex;align-items:center;justify-content:center;padding:34px 38px;border-left:1px solid rgba(255,255,255,.10);}
+    .home-workshop-action span{display:inline-flex;align-items:center;gap:12px;padding:12px 16px;border-radius:12px;background:#fff;color:#101827;font-size:.83rem;font-weight:900;white-space:nowrap;}
+    .home-workshop-action i{font-style:normal;transition:transform .18s ease;}
+    .home-workshop-card:hover .home-workshop-action i{transform:translateX(3px);}
+    @media(max-width:900px){.home-workshop-card{grid-template-columns:150px 1fr}.home-workshop-action{grid-column:2;border-left:0;border-top:1px solid rgba(255,255,255,.10);justify-content:flex-start;padding:0 34px 30px}.home-workshop-date{grid-row:1 / span 2}.home-workshop-copy{padding:30px 34px 22px}}
+    @media(max-width:620px){.home-workshop-section{padding:20px 0 56px}.home-workshop-card{grid-template-columns:1fr}.home-workshop-date{min-height:0;display:grid;grid-template-columns:auto 1fr;column-gap:14px;align-items:end;padding:24px 26px;border-right:0;border-bottom:1px solid rgba(255,255,255,.10)}.home-workshop-date .day{font-size:3rem}.home-workshop-date .month{margin:0 0 4px}.home-workshop-date .year{grid-column:2;margin:0}.home-workshop-copy{padding:26px}.home-workshop-copy h2{font-size:2rem}.home-workshop-action{grid-column:1;padding:0 26px 26px}.home-workshop-place{align-items:flex-start;flex-direction:column;gap:2px}}
+  </style>
 </head>
 <body data-page="home">
 <div id="site-header"></div>
@@ -92,22 +122,28 @@
     </div>
   </section>
 
-  <section class="section workshop-section" id="calistay">
+  <section class="home-workshop-section" id="calistay">
     <div class="container">
-      <a class="workshop-highlight" href="./calistay.html" aria-label="Çalıştay programını görüntüle">
-        <div class="workshop-copy">
-          <div class="workshop-kicker"><span class="live-dot"></span><span>Yaklaşan etkinlik</span><span class="workshop-date-inline" id="workshop-date-home">24–25 Eylül 2026</span></div>
+      <a class="home-workshop-card" href="./calistay.html" aria-label="TÜBİTAK 1001 Proje Çıktıları Çalıştayı programını görüntüle">
+        <div class="home-workshop-date" aria-hidden="true">
+          <span class="day">24–25</span>
+          <span class="month">EYLÜL</span>
+          <span class="year">2026</span>
+        </div>
+
+        <div class="home-workshop-copy">
+          <div class="home-workshop-kicker">Yaklaşan etkinlik</div>
           <h2 id="workshop-title-home">TÜBİTAK 1001 Proje Çıktıları Çalıştayı</h2>
           <p id="workshop-desc-home">Proje çıktılarının, yöntemlerin ve uygulama çalışmalarının iki günlük oturumlar boyunca paylaşılacağı çalıştay.</p>
-          <div class="workshop-place"><span>⌖</span><span><strong id="workshop-venue-home">Osmaniye Korkut Ata Üniversitesi</strong><small id="workshop-dept-home">Elektrik-Elektronik Mühendisliği Bölümü · Osmaniye</small></span></div>
-          <span class="workshop-cta">Programı incele <span aria-hidden="true">→</span></span>
+          <div class="home-workshop-place">
+            <span id="workshop-venue-home">Osmaniye Korkut Ata Üniversitesi</span>
+            <small id="workshop-dept-home">Elektrik-Elektronik Mühendisliği Bölümü · Osmaniye</small>
+          </div>
+          <span id="workshop-date-home" hidden>24–25 Eylül 2026</span>
         </div>
-        <div class="workshop-poster" aria-hidden="true">
-          <div class="poster-top"><span>VND / 1001</span><span>2026</span></div>
-          <div class="poster-date"><strong>24</strong><span>—</span><strong>25</strong></div>
-          <div class="poster-month">EYLÜL</div>
-          <div class="poster-lines"><span>PROJE</span><span>BULGULAR</span><span>ROBOTİK</span></div>
-          <div class="poster-foot">OSMANİYE</div>
+
+        <div class="home-workshop-action">
+          <span>Programı incele <i aria-hidden="true">→</i></span>
         </div>
       </a>
     </div>
