@@ -1023,6 +1023,26 @@ async function initNewsDetail() {
 
   /* İçerik */
 
+  const gallery =
+    item.gallery?.length
+      ? `
+        <div class="news-gallery" aria-label="Haber fotoğrafları">
+          ${item.gallery
+            .map((src, index) => `
+              <figure class="${index === 0 ? 'wide' : ''}">
+                <img
+                  src="${esc(src)}"
+                  alt="${esc(item.title)} — Fotoğraf ${index + 1}"
+                  loading="lazy"
+                  onerror="this.closest('figure').remove()"
+                >
+              </figure>
+            `)
+            .join('')}
+        </div>
+      `
+      : '';
+
   const paragraphs =
     (item.content || [])
       .map(paragraph => `
@@ -1057,7 +1077,7 @@ async function initNewsDetail() {
 
   if (contentTarget) {
     contentTarget.innerHTML =
-      paragraphs + items;
+      gallery + paragraphs + items;
   }
 
 

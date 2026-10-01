@@ -87,4 +87,47 @@
       }
     ]
   }
+
+
+
+{
+  "id": "proje-ciktilari-calistayi-2026",
+  "date": "2026-09-25",
+  "displayDate": "24–25 Eylül 2026",
+  "type": "Çalıştay",
+  "title": "TÜBİTAK 1001 Proje Çıktıları Çalıştayı Gerçekleştirildi",
+  "summary": "TÜBİTAK 1001 projemiz kapsamında düzenlenen Proje Çıktıları Çalıştayı, 24–25 Eylül 2026 tarihlerinde Osmaniye Korkut Ata Üniversitesi’nde başarıyla gerçekleştirildi.",
+  "image": "./static/calistay1.jpeg",
+  "gallery": [
+    "./static/calistay1.jpeg",
+    "./static/calistay2.jpeg",
+    "./static/calistay3.jpeg"
+  ],
+  "content": [
+    "TÜBİTAK 1001 kapsamında yürütülen “Yeni Bir Vuru Üreten Nöral Devre Tabanlı Öngörüsel Kodlama Yapısı ve Öğrenme Kuralının Geliştirilmesi” başlıklı projenin çıktılarını paylaşmak amacıyla düzenlenen çalıştay, 24–25 Eylül 2026 tarihlerinde Osmaniye Korkut Ata Üniversitesi’nde gerçekleştirildi.",
+    "İki günlük program boyunca proje kapsamında geliştirilen yöntemler, vuru üreten sinir ağları, öngörüsel kodlama, modelleme ve benzetim çalışmaları ile mobil robot uygulamaları ele alındı. Proje ekibi tarafından gerçekleştirilen sunumların ardından çalışma sonuçları ve gelecekte yürütülebilecek araştırmalar değerlendirildi.",
+    "Çalıştay, proje kapsamında elde edilen bilimsel ve uygulamalı çıktıların paylaşılması ve farklı araştırma başlıklarının birlikte değerlendirilmesi açısından verimli bir etkinlik olarak tamamlandı."
+  ],
+  "items": [
+    "Proje Vizyonu ve Yöntem — Yavuz Selim İşler",
+    "Modelleme ve Benzetim — Rahmi Elibol",
+    "Kazanan Hepsini Alır ve Öngörüsel Kodlama — Neslihan Serap Şengör",
+    "Farklı Öğrenme Kuralları — Neşe Topuz",
+    "SNN Ağlarında Öngörüsel Kodlamanın Uygulanması — Yavuz Selim İşler",
+    "Mobil Robot Simülasyonu ve Gömülü Sistemlerde Sinir Ağları — Aykut Görkem Gelen",
+    "Mobil Robotlarda Sinir Ağı Temelli Örüntü Tanıma — Özge Bakır"
+  ],
+  "meta": [
+    "Osmaniye Korkut Ata Üniversitesi",
+    "Elektrik-Elektronik Mühendisliği Konferans Salonu"
+  ],
+  "links": [
+    {
+      "label": "Çalıştay programı",
+      "url": "./calistay.html"
+    }
+  ]
+}
+
+
 ]
